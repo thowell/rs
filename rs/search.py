@@ -248,7 +248,7 @@ def eval_search(
     Path(str(checkpoint_dir)).mkdir(parents=True, exist_ok=True)
     
     # create subdirectory
-    Path(str(checkpoint_dir) + checkpoint).mkdir(parents=True, exist_ok=True)
+    Path(str(checkpoint_dir) + "/" + checkpoint).mkdir(parents=True, exist_ok=True)
     
 
   # start total timer
