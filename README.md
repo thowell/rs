@@ -142,13 +142,12 @@ Search settings:
 - `--ntop`: number of random directions to use for policy update
 - `--niter`: number of policy updates
 - `--neval`: number of policy evaluations during search
-- `--nsample`: number of environment steps during policy search
-- `--nhorizon_search`: number of environment steps during policy evaluation
+- `--nhorizon_search`: number of environment steps during policy improvement
 - `--nhorizon_eval`: number of environment steps during policy evaluation
-- `--random_step`: step size for random directionstep size for policy update
-- `--update_step`: step size for policy updatenumber of environments for policy evaluation
+- `--random_step`: step size for random direction during policy perturbation
+- `--update_step`: step size for policy update during policy improvement
 - `--nenveval`: number of environments for policy evaluation
-- `--reward_shift`: subtract from per-timestep reward
+- `--reward_shift`: subtract baseline from per-timestep reward
 
 ## Mapping notation from the paper to code
 $\alpha$: `update_step`
