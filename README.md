@@ -159,3 +159,14 @@ $N$: `nsample`
 $b$: `ntop`
 
 ## Notes
+- The environments are based on the [v5 MuJoCo Gym environments](https://github.com/Farama-Foundation/Gymnasium/tree/main/gymnasium/envs/mujoco) but may not be exact in all details.
+- The search settings are based on [Simple random search provides a competitive approach to reinforcement learning: Table 9](https://arxiv.org/abs/1803.07055) but may not be exact in all details either.
+  
+This repository was developed to:
+- understand the [Augmented Random Search](https://arxiv.org/abs/1803.07055) algorithm
+- understand how to compute numerically stable running statistics
+- understand the details of [Gym environments](https://github.com/openai/gym)
+- experiment with code generation tools that are useful for improving development times, including: [ChatGPT](https://pytorch.org/cppdocs/) and [Claude](https://claude.ai/)
+- gain experience with [MuJoCo XLA (MJX)](https://mujoco.readthedocs.io/en/stable/mjx.html)
+- gain experience with [JAX](https://github.com/google/jax)
+- MuJoCo models use resources from [Gymnasium](https://github.com/Farama-Foundation/Gymnasium/tree/main/gymnasium/envs/mujoco) and [dm_control](https://github.com/google-deepmind/dm_control)
