@@ -169,4 +169,5 @@ This repository was developed to:
 - experiment with code generation tools that are useful for improving development times, including: [ChatGPT](https://pytorch.org/cppdocs/) and [Claude](https://claude.ai/)
 - gain experience with [MuJoCo XLA (MJX)](https://mujoco.readthedocs.io/en/stable/mjx.html)
 - gain experience with [JAX](https://github.com/google/jax)
-- MuJoCo models use resources from [Gymnasium](https://github.com/Farama-Foundation/Gymnasium/tree/main/gymnasium/envs/mujoco) and [dm_control](https://github.com/google-deepmind/dm_control)
+
+MuJoCo models use resources from [Gymnasium](https://github.com/Farama-Foundation/Gymnasium/tree/main/gymnasium/envs/mujoco) and [dm_control](https://github.com/google-deepmind/dm_control)
